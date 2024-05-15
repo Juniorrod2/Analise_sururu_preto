@@ -36,7 +36,9 @@ spec <- WindowSelection(spec,from.ws = 9.2,to.ws = 0.5)
 
 plot_interactive_Spectra(spec)
 
-saveRDS(spec,"Sururu_preto_espectro_fullRes")
+fullres <- pepsMatrixToDF(spec)
+
+saveRDS(fullres,"Sururu_preto_espectro_fullRes")
 
 spec_binning <- Bucketing(spec,width = TRUE,
                           mb=0.01,intmeth = "t")

@@ -1,3 +1,6 @@
+
+spec <- readRDS("Sururu_spectra")
+
 sururu_spectra <- readRDS("Sururu_preto_espectro_fullRes")
 
 sururu_data <- cbind("group"=c(rep("P4C1",8),rep("P6C3",5)),sururu_spectra)

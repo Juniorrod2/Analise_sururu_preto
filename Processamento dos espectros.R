@@ -16,27 +16,23 @@ fid_proc <- ZeroFilling(fid_proc)
 
 spec <- FourierTransform(fid_proc,info)
 
-plot_interactive_Spectra(spec)
-
 spec <- ZeroOrderPhaseCorrection(spec)
 
-plot_interactive_Spectra(spec)
 
 spec <- InternalReferencing(spec,info)
 
-plot_interactive_Spectra(spec)
 
 spec <- BaselineCorrection(spec)
 
 spec <- NegativeValuesZeroing(spec)
 
-plot_interactive_Spectra(spec)
 
 spec <- WindowSelection(spec,from.ws = 9.2,to.ws = 0.5)
 
-plot_interactive_Spectra(spec)
+saveRDS(spec,"Sururu_spectra")
 
 fullres <- pepsMatrixToDF(spec)
+
 
 saveRDS(fullres,"Sururu_preto_espectro_fullRes")
 

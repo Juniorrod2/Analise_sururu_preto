@@ -1,0 +1,31 @@
+##TITLE= Audit trail, TopSpin 3.5 pl 7
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmrsu
+$$ C:/Bruker/TopSpin3.2/data/Edson/Sururu_LMundau_experimentos/17/audita.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2023-10-03 01:31:48.653 -0300>,<nmrsu>,<CZC13172D3>,<go4>,<TopSpin 3.5.7>,
+      <created by zg
+	started at 2023-10-03 01:02:05.008 -0300,
+	POWCHK enabled, PULCHK disabled,
+       configuration hash MD5:
+       2E 2D 10 A4 E9 02 9C E8 C6 8F 46 27 45 DF 39 B0
+       data hash MD5: 64K
+       32 1B D9 3F E5 BA F9 CE 3B 15 88 D5 25 2C A1 0C>)
+(   2,<2023-10-03 01:31:48.706 -0300>,<nmrsu>,<CZC13172D3>,<audit>,<TopSpin 3.5.7>,
+      <user comment:
+       ICON-NMR User ID: nmrsu
+       data hash MD5: 64K
+       32 1B D9 3F E5 BA F9 CE 3B 15 88 D5 25 2C A1 0C>)
+(   3,<2023-10-06 17:25:33.496 -0300>,<nmrsu>,<CZC13172D3>,<dirdata>,<TopSpin 3.5.7>,
+      <wrpa from 1 17 "Sururu_LMundau_experimentos" "C:/Bruker/TopSpin3.2/data/Edson"
+       data hash MD5: 64K
+       32 1B D9 3F E5 BA F9 CE 3B 15 88 D5 25 2C A1 0C>)
+(   4,<2023-10-06 17:53:16.630 -0300>,<nmrsu>,<CZC13172D3>,<dirdata>,<TopSpin 3.5.7>,
+      <wrpa from 1 18 "Sururu_LMundau_experimentos" "C:/Bruker/TopSpin3.2/data/Edson" overriding existing data
+       data hash MD5: 64K
+       32 1B D9 3F E5 BA F9 CE 3B 15 88 D5 25 2C A1 0C>)
+##END=
+
+$$ hash MD5
+$$ A5 C9 FF EE 27 54 FB F0 42 D5 E2 0F 79 9D 28 8C

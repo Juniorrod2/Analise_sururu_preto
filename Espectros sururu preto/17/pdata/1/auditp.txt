@@ -1,0 +1,46 @@
+##TITLE= Audit trail, TopSpin 3.5 pl 7
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmrsu
+$$ C:/Bruker/TopSpin3.2/data/Edson/Sururu_LMundau_experimentos/17/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2023-10-03 01:31:48.653 -0300>,<nmrsu>,<CZC13172D3>,<go4>,<TopSpin 3.5.7>,
+      <created by zg
+	started at 2023-10-03 01:02:05.008 -0300,
+	POWCHK enabled, PULCHK disabled,
+       configuration hash MD5:
+       2E 2D 10 A4 E9 02 9C E8 C6 8F 46 27 45 DF 39 B0
+       data hash MD5: 64K
+       32 1B D9 3F E5 BA F9 CE 3B 15 88 D5 25 2C A1 0C>)
+(   2,<2023-10-03 01:31:48.706 -0300>,<nmrsu>,<CZC13172D3>,<audit>,<TopSpin 3.5.7>,
+      <user comment:
+       ICON-NMR User ID: nmrsu
+       data hash MD5: 64K
+       32 1B D9 3F E5 BA F9 CE 3B 15 88 D5 25 2C A1 0C>)
+(   3,<2023-10-03 10:13:08.615 -0300>,<nmrsu>,<CZC13172D3>,<proc1d>,<TopSpin 3.5.7>,
+      <Start of raw data processing
+       efp LB = 0.3 FT_mod = 6 PKNL = 1 PHC0 = -77.56757 PHC1 = -57.75648 SI = 64K 
+       data hash MD5: 64K
+       16 09 0E 53 F6 FE 6C 61 20 D2 52 63 07 41 4C 3B>)
+(   4,<2023-10-06 17:25:33.504 -0300>,<nmrsu>,<CZC13172D3>,<dirdata>,<TopSpin 3.5.7>,
+      <wrpa from 1 17 "Sururu_LMundau_experimentos" "C:/Bruker/TopSpin3.2/data/Edson"
+       data hash MD5: 64K
+       16 09 0E 53 F6 FE 6C 61 20 D2 52 63 07 41 4C 3B>)
+(   5,<2023-10-06 17:53:16.636 -0300>,<nmrsu>,<CZC13172D3>,<dirdata>,<TopSpin 3.5.7>,
+      <wrpa from 1 18 "Sururu_LMundau_experimentos" "C:/Bruker/TopSpin3.2/data/Edson"
+       data hash MD5: 64K
+       16 09 0E 53 F6 FE 6C 61 20 D2 52 63 07 41 4C 3B>)
+(   6,<2023-10-06 19:16:13.541 -0300>,<nmrsu>,<CZC13172D3>,<audit>,<TopSpin 3.5.7>,
+      <user comment:
+       TITLE=P6C3 - 1TITLE_END
+       data hash MD5: 64K
+       16 09 0E 53 F6 FE 6C 61 20 D2 52 63 07 41 4C 3B>)
+(   7,<2023-10-06 19:16:14.539 -0300>,<nmrsu>,<CZC13172D3>,<audit>,<TopSpin 3.5.7>,
+      <user comment:
+       TITLE=P6C3 - 1TITLE_END
+       data hash MD5: 64K
+       16 09 0E 53 F6 FE 6C 61 20 D2 52 63 07 41 4C 3B>)
+##END=
+
+$$ hash MD5
+$$ C2 73 8B 22 5E B9 1B 07 C9 CE 47 5C 7E 84 72 B8

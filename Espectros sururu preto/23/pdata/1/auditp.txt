@@ -1,0 +1,25 @@
+##TITLE= Audit trail, TopSpin 3.5 pl 7
+##JCAMPDX= 5.01
+##ORIGIN= Bruker BioSpin GmbH
+##OWNER= nmrsu
+$$ C:/Bruker/TopSpin3.2/data/Edson/Sururu_LMundau_experimentos/23/pdata/1/auditp.txt
+##AUDIT TRAIL=  $$ (NUMBER, WHEN, WHO, WHERE, PROCESS, VERSION, WHAT)
+(   1,<2023-10-06 20:27:52.684 -0300>,<nmrsu>,<CZC13172D3>,<go4>,<TopSpin 3.5.7>,
+      <acquisition in progress>)
+(   2,<2023-10-06 20:38:37.338 -0300>,<nmrsu>,<CZC13172D3>,<proc1d>,<TopSpin 3.5.7>,
+      <Start of raw data processing
+       efp LB = 0.3 FT_mod = 6 PKNL = 1 PHC0 = -77.56757 PHC1 = -57.75648 SI = 64K 
+       data hash MD5: 64K
+       B1 08 59 D4 7F 0D 02 CB A0 ED 82 F5 5A 8E BF 49>)
+(   3,<2023-10-06 20:38:37.767 -0300>,<nmrsu>,<CZC13172D3>,<proc1d>,<TopSpin 3.5.7>,
+      <apk 
+       data hash MD5: 64K
+       DD D3 26 2D AF 34 98 CC EA 29 8E D7 63 06 60 C6>)
+(   4,<2023-10-06 20:38:37.826 -0300>,<nmrsu>,<CZC13172D3>,<proc1d>,<TopSpin 3.5.7>,
+      <abs n ABSG = 5 
+       data hash MD5: 64K
+       1E E1 CC BA A0 AB BA 3A 82 84 6E 6C C1 17 B6 3A>)
+##END=
+
+$$ hash MD5
+$$ 64 BE 57 E3 8F AE 7C FB 5A A2 C5 39 1C 15 AF AF

@@ -22,3 +22,6 @@ ggplot(PLS_data$Scores,aes(p1,p2,color=Group)) + geom_point(size=3) +
 
 loading <- ggplot(PLS_data$Loadings,aes(p1,p2,label=bins,color=as.character(Vip)))+geom_text()
 plotly::ggplotly(loading)
+
+
+NAPRMN::plot_interactive_Spectra(spec)

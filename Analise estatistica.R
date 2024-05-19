@@ -10,7 +10,10 @@ sururu_bins <- cbind("group"=c(rep("P4C1",8),rep("P6C3",5)),bins)
 
 library(ropls)
 
-PLS <- opls(sururu_data[-1:-2],sururu_data$group,predI = 2)
+PLS <- opls(sururu_data[-1:-2],predI=2)
+
+
+plot(PLS,parAsColFcVn=sururu_data$group)
 
 PLS_data <- extract_ropls_data(PLS)
 

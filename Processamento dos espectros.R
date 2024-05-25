@@ -20,10 +20,17 @@ spec <- ZeroOrderPhaseCorrection(spec)
 
 spec <- InternalReferencing(spec,info)
 
+align_spec2 <- Warping(spec,ptw.wp = T,optim.crit = "WCC",verbose = T)
 
 spec <- BaselineCorrection(spec)
 
 spec <- NegativeValuesZeroing(spec)
+
+plot_interactive_Spectra(spec)
+
+#align_spec2 <- Warping(spec,ptw.wp = T,optim.crit = "WCC",verbose = T)
+
+plot_interactive_Spectra(align_spec2)
 
 spec <- WindowSelection(spec,from.ws = 9.2,to.ws = 0.5)
 

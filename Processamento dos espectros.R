@@ -20,7 +20,7 @@ spec <- ZeroOrderPhaseCorrection(spec)
 
 spec <- InternalReferencing(spec,info)
 
-align_spec2 <- Warping(spec,ptw.wp = T,optim.crit = "WCC",verbose = T)
+#align_spec2 <- Warping(spec,ptw.wp = T,optim.crit = "WCC",verbose = T)
 
 spec <- BaselineCorrection(spec)
 

@@ -23,7 +23,8 @@ speaq::ROIplot(Y.spec = as.matrix(spectra),
 
 wine.peaks <- speaq::getWaveletPeaks(Y.spec=as.matrix(spectra), 
                                       X.ppm=teste, 
-                                      baselineThresh = 3E7,
+                                      baselineThresh = 3E6,
+>>>>>>> 52b7a82840bc863cf86caea70d2ab76e4dc0eac9
                                       SNR.Th = -1, 
                                       nCPU = 2, 
                                  include_nearbyPeaks = TRUE)

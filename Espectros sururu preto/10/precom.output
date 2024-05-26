@@ -3,7 +3,7 @@ line no.  pc   label
       20 0xffffffff 1
       27 0xffffffff 2
 
-pulse program: "C:/Bruker/TopSpin3.2/data/Edson/Sururu_LMundau_experimentos/10/stanprogram5064"
+pulse program: "C:/Bruker/TopSpin3.2/data/Edson/Sururu_LMundau_experimentos/10/stanprogram3296"
 ================
 dur0 == line 0
 fixdel(1.000000 usec) 

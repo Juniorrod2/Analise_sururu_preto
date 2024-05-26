@@ -1,11 +1,11 @@
 ##TITLE= Parameter file, TopSpin 3.5 pl 7
 ##JCAMPDX= 5.0
 ##DATATYPE= Parameter Values
-##NPOINTS= 3	$$ modification sequence number
+##NPOINTS= 5	$$ modification sequence number
 ##ORIGIN= Bruker BioSpin GmbH
 ##OWNER= nmrsu
-$$ 2023-10-06 17:47:38.902 -0300  nmrsu@CZC13172D3
+$$ 2024-05-14 20:45:24.100 -0300  nmrsu@CZC13172D3
 $$ C:/Bruker/TopSpin3.2/data/Edson/Sururu_LMundau_experimentos/16/pdata/1/assocs
 $$ process C:\Bruker\TopSpin3.5pl7\prog\mod\dataserver.exe
-##$MULTDISP= <C:/Bruker/TopSpin3.2/data/Edson/Sururu_LMundau_experimentos/17/pdata/1>
+##$MULTDISP= <C:/Bruker/TopSpin3.2/data/Edson/Sururu_LMundau_experimentos/36/pdata/1|C:/Bruker/TopSpin3.2/data/Edson/Sururu_LMundau_experimentos/37/pdata/1|C:/Bruker/TopSpin3.2/data/Edson/Sururu_LMundau_experimentos/23/pdata/1|C:/Bruker/TopSpin3.2/data/Edson/Sururu_LMundau_experimentos/13/pdata/1>
 ##END=

@@ -20,7 +20,9 @@ pca_sururu <- opls(bins_sururu[,c(-1:-2)],predI=4)
 
 #Neste exemplo foi fornecido como segundo argumento o vetor/coluna de grupos (Y), convertendo
 #o modelo em uma PLS-DA com 3 componentes. 
-pls_sururu <- opls(bins_sururu[,c(-1:-2)],bins_sururu$Group,predI=3)
+pls_sururu <- opls(sururu_data[-1:-2],sururu_data$Group,predI=3)
+
+pls_sururu <- opls(sururu_bin_data[-1:-2],sururu_bin_data$Group,predI=3)
 
 #Adicionando o argumento orthoI incluimos uma componente ortogonal no modelo, que agora
 #Sera convertido em um modelo de OPLS-DA
@@ -38,8 +40,9 @@ plot(pls_sururu,typeVc=c("x-score","x-loading"))
 #Extracao dos eixos das componentes e dados adcionais (VIP, etc...) a partir do modelo 
 #para permitir a plotagem dos dados com uma biblioteca grafica externa
 pls_sururu_data <- extract_ropls_data(pls_sururu)
+pls_sururu_data$Loadings$bins <- rownames(pls_sururu_data$Loadings)
 
-#Inicializacao do pacote ggplot2, um pacote grafico que pode ser utilzado para produzir 
+#Inicializacao do pextract_ropls_data()#Inicializacao do pacote ggplot2, um pacote grafico que pode ser utilzado para produzir 
 #diversos tipos de graficos a partir de uma planilha/dataframe
 library(ggplot2)
 
@@ -51,8 +54,8 @@ scores <- ggplot(pls_sururu_data$Scores,aes(p1,p2,color=Group,fill = Group))+
 
 #Plotagem do loading plot com o pacote ggplot2 a partir dos dados extraidos do modelo
 #de PLS-DA
-loadings <- ggplot(pls_sururu_data$Loadings,aes(p1,p2,color=Vip,label=bins)) +
-  geom_text()+scale_color_gradient(high = "red",low="darkgray")
+loadings <- ggplot(pls_sururu_data$Loadings[1:24,],aes(p1,p2,color=bins,label=bins)) +
+  geom_text()#+scale_color_gradient(high = "red",low="darkgray")
 
 #para visualizar os graficos basta "chamar" os objetos que armazenaram os plots
 scores

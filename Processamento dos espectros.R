@@ -33,7 +33,7 @@ plot_interactive_Spectra(spec)
 
 plot_interactive_Spectra(align_spec2)
 
-y.spec <- WindowSelection(Y,from.ws = 9.2,to.ws = 0.5)
+spec <- WindowSelection(spec,from.ws = 9.2,to.ws = 0.5)
 
 #Gera a previsualizacao do espectro, pode ser chamada apos qualquer um dos intermediarios
 #acima. Conferir a documentacao da funcao para detalhes da representacao do espectro
@@ -50,7 +50,7 @@ fullres <- pepsMatrixToDF(spec)
 saveRDS(fullres,"Sururu_preto_espectro_fullRes")
 
 #Produz o binning dos espectros
-spec_binning <- Bucketing(y.spec,width = TRUE,
+spec_binning <- Bucketing(spec,width = TRUE,
                           mb=0.01,intmeth = "t")
 
 # Converte a matrix em um dataframe e converte os numeros complexos em numeros reais

@@ -53,7 +53,9 @@ bins <- pepsMatrixToDF(spec_binning)
 
 bins <- tidyr::separate(bins,Sample,into=c("Group"),sep = " - ",remove = F)
 
-bins <- dplyr::filter(bins,Group%in%c("P8C1","P5C2","P6C3"))
+#bins <- dplyr::filter(bins,Group%in%c("P8C1","P5C2","P6C3"))
+#bins <- dplyr::filter(bins,!Group%in%c("P4C2","P4C2- 2","P4C2- 3","P4C2- 4","P4C2- 5","P4C2- 6"))
+bins <- dplyr::filter(bins,Group%in%c("P8C1","P8C3"))
 
 library(ropls);library(ggplot2);library(ggrepel);library(patchwork);library(forcats)
 
